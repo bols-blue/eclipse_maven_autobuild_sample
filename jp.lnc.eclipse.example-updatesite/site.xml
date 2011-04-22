@@ -3,29 +3,12 @@
    <description url="Eclipse Git Plugin">
       This is a pure Java implementation of the Git version control system. The native Git version is also required in this version.
    </description>
-   <feature url="features/org.eclipse.egit_0.0.0.qualifier.jar" id="org.eclipse.egit" version="0.0.0" patch="true">
+   <feature url="features/jp.lnc.eclipse.example_0.12.0.qualifier.jar" id="jp.lnc.eclipse.example" version="0.12.0.qualifier">
       <category name="Eclipse Git Team Provider (Incubation)"/>
-   </feature>
-   <feature url="features/org.eclipse.egit.sources_0.0.0.qualifier.jar" id="org.eclipse.egit.source" version="0.0.0" patch="true">
-      <category name="Eclipse Git Team Provider (Incubation)"/>
-   </feature>
-   <feature url="features/org.eclipse.egit.mylyn_0.0.0.qualifier.jar" id="org.eclipse.egit.mylyn" version="0.0.0" patch="false">
-      <category name="Eclipse Git Team Provider (Incubation)"/>
-   </feature>
-    <feature url="features/org.eclipse.jgit_0.0.0.qualifier.jar" id="org.eclipse.jgit" version="0.0.0" patch="true">
-      <category name="JGit (Incubation)"/>
-   </feature>
-   <feature url="features/org.eclipse.jgit.sources_0.0.0.qualifier.jar" id="org.eclipse.jgit.source" version="0.0.0" patch="true">
-      <category name="JGit (Incubation)"/>
    </feature>
    <category-def name="Eclipse Git Team Provider (Incubation)" label="Eclipse Git Team Provider (Incubation)">
       <description>
          Eclipse Git Team Provider (Incubation)
-      </description>
-   </category-def>
-   <category-def name="JGit (Incubation)" label="JGit (Incubation)">
-      <description>
-         JGit (Incubation)
       </description>
    </category-def>
 </site>
