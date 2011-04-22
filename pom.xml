@@ -118,21 +118,16 @@
   </profiles>
 
   <modules>
-    <module>org.eclipse.egit</module>
-    <module>org.eclipse.egit.core</module>
-    <module>org.eclipse.egit.ui</module>
+    <module>jp.lnc.eclipse.example</module>
+    <module>jp.lnc.eclipse.example.ui</module>
 
-    <module>org.eclipse.egit.mylyn.ui</module>
-    <module>org.eclipse.egit.mylyn-feature</module>
 
-    <module>org.eclipse.egit.doc</module>
-    <module>org.eclipse.egit-feature</module>
-    <module>org.eclipse.egit-updatesite</module>
+    <module>jp.lnc.eclipse.example.doc</module>
+    <module>jp.lnc.eclipse.example-feature</module>
+    <module>jp.lnc.eclipse.example-updatesite</module>
 
-    <module>org.eclipse.egit.core.test</module>
-    <module>org.eclipse.egit.ui.test</module>
+    <module>jp.lnc.eclipse.example.ui.test</module>
 
-    <module>org.eclipse.egit.source-feature</module>
    </modules>
 
   <repositories>

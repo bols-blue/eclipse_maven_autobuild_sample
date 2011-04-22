@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="org.eclipse.egit"
+      id="jp.lnc.eclipse.example"
       label="%featureName"
       version="0.12.0.qualifier"
       provider-name="%providerName"
       plugin="org.eclipse.egit">
 
    <description url="http://www.eclipse.org/egit/">
-     %description
+      %description
    </description>
 
    <copyright>
-     %copyright
+      %copyright
    </copyright>
 
    <license url="%licenseURL">
-     %license
+      %license
    </license>
 
    <url>
@@ -38,34 +38,20 @@
       <import plugin="org.eclipse.jsch.ui" version="1.1.100" match="compatible"/>
       <import plugin="org.eclipse.jsch.core" version="1.1.100" match="compatible"/>
       <import plugin="com.jcraft.jsch" version="0.1.37" match="compatible"/>
-      <import feature="org.eclipse.jgit" version="0.12.0" match="equivalent"/>
    </requires>
 
    <plugin
-         id="org.eclipse.egit.core"
+         id="jp.lnc.eclipse.example.doc"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.egit.ui"
+         id="jp.lnc.eclipse.example.ui"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
-   <plugin
-         id="org.eclipse.egit"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.egit.doc"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
 </feature>

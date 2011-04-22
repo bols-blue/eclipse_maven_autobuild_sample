@@ -19,7 +19,7 @@
     <version>0.12.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>jp.lnc..eclipse.egit-feature</artifactId>
+  <artifactId>jp.lnc.eclipse.example-feature</artifactId>
   <packaging>eclipse-feature</packaging>
 
   <name>Eclipse Git Feature (Incubation)</name>

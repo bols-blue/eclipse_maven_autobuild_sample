@@ -19,7 +19,7 @@
     <version>0.12.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>org.eclipse.egit.ui.test</artifactId>
+  <artifactId>jp.lnc.eclipse.example.ui.test</artifactId>
   <packaging>eclipse-test-plugin</packaging>
 
   <name>EGit UI Test Plug-in (Incubation)</name>

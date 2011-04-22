@@ -19,7 +19,7 @@
     <version>0.12.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>org.eclipse.egit.doc</artifactId>
+  <artifactId>jp.lnc.eclipse.example.doc</artifactId>
   <packaging>eclipse-plugin</packaging>
 
   <name>Git Team Provider (Documentation) (Incubation)</name>

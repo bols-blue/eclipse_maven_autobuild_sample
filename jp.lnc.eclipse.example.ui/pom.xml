@@ -19,7 +19,7 @@
     <version>0.12.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>org.eclipse.egit.ui</artifactId>
+  <artifactId>jp.lnc.eclipse.example.ui</artifactId>
   <packaging>eclipse-plugin</packaging>
 
   <name>Git Team Provider (UI) (Incubation)</name>
