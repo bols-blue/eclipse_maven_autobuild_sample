@@ -22,6 +22,6 @@
   <artifactId>jp.lnc.eclipse.example-feature</artifactId>
   <packaging>eclipse-feature</packaging>
 
-  <name>Eclipse Git Feature (Incubation)</name>
+  <name>Maven Example Feature</name>
 
 </project>

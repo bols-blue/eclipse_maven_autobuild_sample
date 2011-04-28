@@ -22,7 +22,7 @@
   <artifactId>jp.lnc.eclipse.example-updatesite</artifactId>
   <packaging>eclipse-update-site</packaging>
 
-  <name>Eclipse Git Plugin Update Site (Incubation)</name>
+  <name>Maven Example Update Site (Incubation)</name>
   <!-- see http://issues.sonatype.org/browse/TYCHO-313 -->
   <version>0.12.0-SNAPSHOT</version>
 

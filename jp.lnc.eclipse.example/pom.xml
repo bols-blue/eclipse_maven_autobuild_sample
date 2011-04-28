@@ -22,5 +22,5 @@
   <artifactId>jp.lnc.eclipse.example</artifactId>
   <packaging>eclipse-plugin</packaging>
 
-  <name>Eclipse Git (Incubation)</name>
+  <name>Maven Example</name>
 </project>

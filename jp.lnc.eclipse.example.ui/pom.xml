@@ -22,7 +22,7 @@
   <artifactId>jp.lnc.eclipse.example.ui</artifactId>
   <packaging>eclipse-plugin</packaging>
 
-  <name>Git Team Provider (UI) (Incubation)</name>
+  <name>Maven Example (UI) (Incubation)</name>
 
   <!-- workaround for https://issues.sonatype.org/browse/TYCHO-168 -->
   <build>
