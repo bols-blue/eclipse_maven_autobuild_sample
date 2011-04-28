@@ -117,18 +117,6 @@
     </profile>
   </profiles>
 
-  <modules>
-    <module>jp.lnc.eclipse.example</module>
-    <module>jp.lnc.eclipse.example.ui</module>
-
-
-    <module>jp.lnc.eclipse.example.doc</module>
-    <module>jp.lnc.eclipse.example-feature</module>
-    <module>jp.lnc.eclipse.example-updatesite</module>
-
-    <module>jp.lnc.eclipse.example.ui.test</module>
-
-   </modules>
 
   <repositories>
     <repository>
@@ -288,5 +276,6 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
+  <modules></modules>
 </project>
 
