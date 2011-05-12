@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Example_get_tree
+Bundle-SymbolicName: example_get_tree; singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: example_get_tree.Activator
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.core.resources,
+ org.eclipse.jface.text,
+ org.eclipse.ui,
+ jp.co.overtone.nslplugin_core;bundle-version="0.2.140"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: jp.co.overtone.contenttype.elements,
+ org.eclipse.core.filebuffers,
+ org.eclipse.jface.text
