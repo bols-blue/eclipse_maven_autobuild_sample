@@ -69,6 +69,7 @@
     <jetty-site>http://download.eclipse.org/jetty/7.1.6.v20100715/repository/</jetty-site>
     <wikitext-site>http://download.eclipse.org/tools/mylyn/update/weekly</wikitext-site>
     <orbit-site>http://download.eclipse.org/tools/orbit/downloads/drops/S20110124210048/repository</orbit-site>
+    <NSLPlugin-site>http://bols.nyacom.net/nslplugin_testing_update/</NSLPlugin-site>
   </properties>
 
   <profiles>
@@ -119,16 +120,15 @@
 
   <modules>
     <module>jp.lnc.eclipse.example</module>
-    <module>jp.lnc.eclipse.example.ui</module>
 
 
-    <module>jp.lnc.eclipse.example.doc</module>
     <module>jp.lnc.eclipse.example-feature</module>
     <module>jp.lnc.eclipse.example-updatesite</module>
 <!-- 
     <module>jp.lnc.eclipse.example.ui.test</module>
 -->
-   </modules>
+    <module>jp.co.overtone.eclipse.example_get_tree</module>
+  </modules>
 
   <repositories>
     <repository>
@@ -160,6 +160,11 @@
       <id>orbit</id>
       <layout>p2</layout>
       <url>${orbit-site}</url>
+    </repository>
+    <repository>
+      <id>NSLPlugin</id>
+      <layout>p2</layout>
+      <url>${NSLPlugin-site}</url>
     </repository>
   </repositories>
 

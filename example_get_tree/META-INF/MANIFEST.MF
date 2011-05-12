@@ -1,8 +1,8 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Example_get_tree
-Bundle-SymbolicName: example_get_tree; singleton:=true
-Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: jp.co.overtone.eclipse.example_get_tree;singleton:=true
+Bundle-Version: 0.12.0.qualifier
 Bundle-Activator: example_get_tree.Activator
 Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.core.resources,
