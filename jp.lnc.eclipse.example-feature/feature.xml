@@ -48,7 +48,7 @@
          unpack="false"/>
 
    <plugin
-         id="jp.lnc.eclipse.example.doc"
+         id="jp.co.overtone.eclipse.example_get_tree"
          download-size="0"
          install-size="0"
          version="0.0.0"
