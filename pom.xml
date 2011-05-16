@@ -128,6 +128,7 @@
     <module>jp.lnc.eclipse.example.ui.test</module>
 -->
     <module>jp.co.overtone.eclipse.example_get_tree</module>
+    <module>jp.lnc.eclipse.example.ui.test</module>
   </modules>
 
   <repositories>
