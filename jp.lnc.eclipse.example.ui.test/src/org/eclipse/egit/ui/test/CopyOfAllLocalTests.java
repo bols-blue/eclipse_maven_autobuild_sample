@@ -13,8 +13,19 @@ import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
 @RunWith(Suite.class)
-@SuiteClasses( { //AllRepositoriesViewTests.class, 	//
-		 Eclipse.class})
-public class AllLocalTests {
+@SuiteClasses( { /*AllRepositoriesViewTests.class, 	//
+	GlobalConfigurationPageTest.class,			//
+	GitCloneWizardTest.class,                   //
+	GitCloneWizardHttpTest.class,               //
+	SharingWizardTest.class,					//
+	AllTeamActionTests.class,                   //
+	HistoryViewTest.class,                      //
+	PushTest.class,
+	SpellcheckableMessageAreaTest.class,
+	TraceConfigurationDialogTest.class,
+	SynchronizeViewWorkspaceModelTest.class,
+	SynchronizeViewGitChangeSetModelTest.class*/
+	})
+public class CopyOfAllLocalTests {
 	// empty class, don't need anything here
 }
