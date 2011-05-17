@@ -6,7 +6,7 @@
  * which accompanies this distribution, and is available at
  * http://www.eclipse.org/legal/epl-v10.html
  *******************************************************************************/
-package org.eclipse.egit.ui.test;
+package jp.lnc.eclipse.example.ui.test;
 
 import java.util.List;
 

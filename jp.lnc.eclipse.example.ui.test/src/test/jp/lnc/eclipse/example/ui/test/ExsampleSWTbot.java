@@ -1,4 +1,4 @@
-package org.eclipse.egit.ui.test;
+package jp.lnc.eclipse.example.ui.test;
 
 import org.eclipse.swtbot.eclipse.finder.SWTWorkbenchBot;
 import org.eclipse.swtbot.swt.finder.junit.SWTBotJunit4ClassRunner;
