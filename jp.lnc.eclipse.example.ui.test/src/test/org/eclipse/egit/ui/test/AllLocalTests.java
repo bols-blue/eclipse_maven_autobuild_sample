@@ -14,7 +14,7 @@ import org.junit.runners.Suite.SuiteClasses;
 
 @RunWith(Suite.class)
 @SuiteClasses( { //AllRepositoriesViewTests.class, 	//
-		 Eclipse.class})
+	AllSWTbotTests.class})
 public class AllLocalTests {
 	// empty class, don't need anything here
 }
