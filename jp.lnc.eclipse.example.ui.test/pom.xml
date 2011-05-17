@@ -101,8 +101,8 @@
       	<artifactId>maven-osgi-test-plugin</artifactId>
       	<version>0.11.1</version>
         <configuration>
-          <testSuite>org.eclipse.egit.ui.test</testSuite>
-          <testClass>org.eclipse.egit.ui.test.AllTests</testClass>
+          <testSuite>jp.lnc.eclipse.example.ui.test</testSuite>
+          <testClass>jp.lnc.eclipse.example.ui.test.AllTests</testClass>
           <useUIHarness>true</useUIHarness>
           <useUIThread>false</useUIThread>
           <product>org.eclipse.sdk.ide</product>
