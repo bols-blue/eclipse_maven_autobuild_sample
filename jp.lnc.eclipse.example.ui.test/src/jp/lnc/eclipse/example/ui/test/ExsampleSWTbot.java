@@ -16,7 +16,8 @@ public class ExsampleSWTbot {
 	@BeforeClass
 	public static void beforeClass() throws Exception {
 		bot = new SWTWorkbenchBot();
-		bot.viewByTitle("Welcome").close();
+		bot.sleep(2000);
+//		bot.viewByTitle("Welcome").close();
 	}
  
  
