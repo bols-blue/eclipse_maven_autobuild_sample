@@ -37,7 +37,7 @@ public class ContextMenuHelper {
 		@Test
 		public void canCreateANewJavaProject() throws Exception {
 			bot.menu("File").menu("New").menu("Project...").click();
-	 
+			
 			SWTBotShell shell = bot.shell("New Project");
 			shell.activate();
 			bot.tree().expandNode("Java").select("Java Project");
