@@ -20,7 +20,6 @@ public class ExsampleSWTbot {
 //		bot.viewByTitle("Welcome").close();
 	}
  
- 
 	@Test
 	public void canCreateANewJavaProject() throws Exception {
 		bot.menu("File").menu("New").menu("Project...").click();
@@ -33,9 +32,12 @@ public class ExsampleSWTbot {
 		bot.textWithLabel("Project name:").setText("MyFirstProject");
  
 		bot.button("Finish").click();
+		bot.sleep(1000);
+		String test = bot.activeShell().getToolTipText();
+		System.out.println(test);
+		bot.button("Yes").click();
 		// FIXME: assert that the project is actually created, for later
 	}
- 
  
 	@AfterClass
 	public static void sleep() {
