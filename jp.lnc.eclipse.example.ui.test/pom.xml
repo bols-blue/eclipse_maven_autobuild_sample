@@ -25,7 +25,7 @@
   <name>EGit UI Test Plug-in (Incubation)</name>
 
   <properties>
-    <local-egit-site>file:/${basedir}/../org.eclipse.egit-updatesite/target/site</local-egit-site>
+  	<local-egit-site>file:/${basedir}/../jp.lnc.eclipse.example-updatesite/target/site</local-egit-site>
   </properties>
 
   <repositories>
